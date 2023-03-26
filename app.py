@@ -19,6 +19,8 @@ def main():
         # print password
         print(f"Your random password is {password}")
 
-# if initial response is no, then exit program
+    # if initial response is no, then exit program
+    elif option == str('y'):
+        quit()
 
 main()
